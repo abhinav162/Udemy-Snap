@@ -23,8 +23,9 @@ To use this extension, follow these steps:
 
 ## Usage
 
-1. Click on the Udemy Snap extension icon in your Chrome browser.
-2. On the popup, click the "COMPLETE COURSE" button to activate the extension.
+1. Open the Udemy course you want to complete. 
+2. Click on the Udemy Snap extension icon in your Chrome browser.
+3. On the popup, click the "COMPLETE COURSE" button to activate the extension.
 
 ## License
 
