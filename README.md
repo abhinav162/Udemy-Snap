@@ -1,6 +1,6 @@
 <center><h1>Udemy Snap Chrome Extension</h1></center>
 
-<center><img src = "./icon.png"></img></center>
+<center><img src = "https://github.com/abhinav162/Udemy-Snap/assets/90970567/306b7fb0-fa9b-40b4-9214-eda8f6f2d7ee"></img></center>
 
 ## Overview
 
