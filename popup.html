@@ -7,32 +7,60 @@
     <title>Udemy Snap</title>
 
     <style>
+        * {
+            --accent-color: rgba(164, 53, 240, 1);
+            --accent-color2: rgba(164, 53, 240, 0.5);
+            --accent-color3: rgba(241, 104, 105,0.7);
+            --accent-color4: rgba(241, 104, 105,1);
+        }
+
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             height: auto;
-            width: 200px;
+            width: 250px;
             font-family: sans-serif;
-            border: 2px solid rgb(164,53,240);
+            border: 2px solid var(--accent-color3);
+            border-radius: 15px;
             padding: 20px;
             text-transform: capitalize;
+            letter-spacing: 1.2px;
+            font-size: 17px;
+            gap: 10px;
         }
 
         img {
-            height: 40px;
+            height: 60px;
+        }
+
+        .info-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h4 {
+            margin: 10px;
+        }
+        
+        p {
+            margin: 0 0 10px 0;
+            text-align: center;
+            /* letter-spacing: 1px; */
         }
 
         button {
             border: none;
-            background-color: rgb(164,53,240);
+            background-color: var(--accent-color4);
             color: white;
             padding: 10px;
             border-radius: 5px;
             cursor: pointer;
             text-transform: uppercase;
-            font-weight: bold;
+            font-weight: 300;
         }
     </style>
     <script src="./popup.js"></script>
@@ -40,7 +68,10 @@
 
 <body>
     <img src="./icon.png" alt="">
-    <h4>UDEMY SNAP</h4>
+    <div class="info-container">
+        <h4>UDEMY SNAP</h4>
+        <p>Complete the course in one click</p>
+    </div>
     <button id="start-btn">Complete Course</button>
 </body>
 
